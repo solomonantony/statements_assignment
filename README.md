@@ -13,16 +13,7 @@ Record an explanation as to what each line of code does The explanation must be 
 
 ## 2. Code improvement
 Consider the script shown below
-`
-def get_password():
-  print('Hello, Joe. What is the password? (It is a fish.)')
-  return input()
-print('Who are you?')
-name = input()
-if name == 'Joe':
-  while True:
-      if get_password() == 'swordfish':
-        print('Access granted.')
-        break
-`
+![image](https://github.com/user-attachments/assets/93b6d6e9-ed5b-4b60-96b2-02ae9b98667a)
+
+
 How will you change the above script so that the loop runs only for three attempts? Assume you must use while for looping. Write your explanation and then the script.
